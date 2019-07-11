@@ -21,7 +21,7 @@ Install these first:
 
 First, download the release package from the [releases page](https://github.com/ffxi-mods/Sublimation/releases).
 
-Secondly, open the `Sublimation.ahk` script and edit the primary and secondary character variables. The values should be the windows title name of the FFXI characters you're logged in with.
+Secondly, open the `Sublimation.ahk` script and edit the `CharPrimary` and `CharSecondary` variables. The values should be the windows title name of the FFXI characters you're logged in with.
 
 If you're using [Ashita](https://www.ashitaxi.com/) (or [Windower](http://www.windower.net/)), once you've logged into a character, the FFXI window title should have the same name as the character you've logged in as. These are the names you should put on the `CharPrimary` and `CharSecondary` variables.
 
@@ -41,7 +41,7 @@ To compile the script, right-click on the `Sublimation.ahk` file and select `Com
 
 Next, Login to FFXI with your both characters. This should set the correct window titles.
 
-Finally, run the compiled executable as administrator (right-click -> Run as administrator). If you don't run as administrator key binds won't be detected properly while FFXI is active. ***This last step is important for the program to work properly!!***
+Finally, run the compiled executable as administrator (right-click -> Run as administrator). If you don't run as administrator, key binds won't be detected properly while FFXI is active. ***This last step is important for the program to work properly!!***
 
 ## Hotkey Reference
 
